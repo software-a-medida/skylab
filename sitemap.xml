@@ -2,9 +2,14 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://mycompany.com/</loc>
+        <loc>https://skylab.one-consultores.com/</loc>
         <changefreq>yearly</changefreq>
         <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://skylab.one-consultores.com/contactanos</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>https://mycompany.com/aviso-de-privacidad</loc>

@@ -13,9 +13,13 @@ class Urls_registered_vkye
                 'controller' => 'Index',
                 'method' => 'index'
             ],
+            '/contactanos' => [
+                'controller' => 'Index',
+                'method' => 'contact_us'
+            ],
             '/aviso-de-privacidad' => [
                 'controller' => 'Index',
-                'method' => 'privacynotice'
+                'method' => 'privacy_notice'
             ]
         ];
     }

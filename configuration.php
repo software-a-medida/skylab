@@ -19,7 +19,7 @@ class Configuration
 	 *
      * @var string $domain
      */
-	public static $domain = 'mycompany.com';
+	public static $domain = 'skylab.one-consultores.com';
 
 	/**
      * Nombre del sitio web.
@@ -28,7 +28,7 @@ class Configuration
 	 *
      * @var string $web_page
      */
-	public static $web_page = 'My Company';
+	public static $web_page = 'SkyLab';
 
 	/**
      * Idioma por default
@@ -222,7 +222,7 @@ class Configuration
 	 *
      * @var boolean $smtp_auth
      */
-	public static $smtp_auth = false;
+	public static $smtp_auth = true;
 
 	/**
      * Dominio o IP del servidor SMTP.
@@ -231,7 +231,7 @@ class Configuration
 	 *
      * @var string $smtp_host
      */
-	public static $smtp_host = '';
+	public static $smtp_host = 'smtp.gmail.com';
 
 	/**
      * Usuario de la cuenta smtp.
@@ -241,7 +241,7 @@ class Configuration
 	 *
      * @var string $smtp_user
      */
-	public static $smtp_user = '';
+	public static $smtp_user = 'noreply@one-consultores.com';
 
 	/**
      * Contraseña de la cuenta smtp.
@@ -250,7 +250,7 @@ class Configuration
 	 *
      * @var string $smtp_pass
      */
-	public static $smtp_pass = '';
+	public static $smtp_pass = '5G>BaT&9';
 
 	/**
      * Seguridad de la encriptacion para el envio de SMTP.
@@ -260,7 +260,7 @@ class Configuration
 	 *
      * @var string $smtp_secure
      */
-	public static $smtp_secure = 'ssl';
+	public static $smtp_secure = 'tls';
 
 	/**
      * Puerto de conexion al servidor SMTP.
@@ -269,7 +269,7 @@ class Configuration
 	 *
      * @var integer $smtp_port
      */
-	public static $smtp_port = 465;
+	public static $smtp_port = 587;
 
 	/**
      * Correo electrónico de emailing.
@@ -278,7 +278,7 @@ class Configuration
 	 *
      * @var integer $smtp_emailer
      */
-	public static $smtp_emailer = 'noreply@mycompany.com';
+	public static $smtp_emailer = 'skylab@one-consultores.com';
 
 	/**
      * Variables generales.
@@ -289,17 +289,25 @@ class Configuration
      */
 	public static $vars = [
 		'contact' => [
-			'email' => 'contacto@mycompany.com',
-			'phone' => '+52 (998) 123 45 67'
+			'email' => 'skylab@one-consultores.com',
+			'phone' => '+52 (998) 440 33 02'
 		],
 		'rrss' => [
 			'facebook' => [
-				'url' => 'https://facebook.com/',
-				'user' => '@myfacebook'
+				'url' => 'https://facebook.com/skylabsalud',
+				'user' => '@skylabsalud'
 			],
 			'instagram' => [
-				'url' => 'https://instagram.com/',
-				'user' => '@myinstagram'
+				'url' => 'https://instagram.com/skylabsalud',
+				'user' => '@skylabsalud'
+			],
+			'linkedin' => [
+				'url' => 'https://linkedin.com/company/skylabsalud',
+				'user' => '@skylabsalud'
+			],
+			'whatsapp' => [
+				'url' => 'https://api.whatsapp.com/send?phone=+529984403302',
+				'user' => '+52 (998) 440 33 02'
 			]
 		]
 	];
