@@ -2,6 +2,8 @@
 :root {
     --light: 255, 255, 255;
     --dark: 0, 0, 0;
+    --first: 0, 172, 219;
+    --second: 246, 139, 31;
 }
 
 /*  */
@@ -109,7 +111,7 @@ body * {
 #desktop_menu.down {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    background-color: #000 !important;
+    background-color: rgba(var(--second), 1) !important;
 }
 
 @media (max-width: 768px) {

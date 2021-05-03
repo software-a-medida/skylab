@@ -10,7 +10,7 @@ $(document).ready(function()
 
         $.ajax({
             type: 'POST',
-            data: form.serialize(),
+            data: form.serialize() + '&action=contact_us',
             processData: false,
             cache: false,
             dataType: 'json',
@@ -35,37 +35,3 @@ $(document).ready(function()
         });
     });
 });
-
-function map()
-{
-    var locations = [
-        {
-            title: 'SkyLab',
-            lat: 21.1214886,
-            lng: -86.9192734,
-            zoom: 12
-        }
-    ];
-
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: locations[0].zoom,
-        center: {
-            lat: locations[0].lat,
-            lng: locations[0].lng
-        }
-    });
-
-    var marker = new google.maps.Marker({
-        position: {
-            lat: locations[0].lat,
-            lng: locations[0].lng
-        },
-        map: map
-    });
-
-    var title = new google.maps.InfoWindow({
-        content: locations[0].title
-    });
-
-    title.open(map, marker);
-}

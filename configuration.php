@@ -309,6 +309,10 @@ class Configuration
 				'url' => 'https://api.whatsapp.com/send?phone=+529984403302',
 				'user' => '+52 (998) 440 33 02'
 			]
+		],
+		'colors' => [
+			'first' => '#00acdb',
+			'second' => '#f68b1f'
 		]
 	];
 }

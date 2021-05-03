@@ -1,9 +1,9 @@
 <?php defined('_EXEC') or die; ?>
 
-        <footer class="p-20 p-md-40" style="background-color:#000;">
+        <footer class="p-20 p-md-40" style="background-color:<?php echo Configuration::$vars['colors']['first']; ?>;">
             <div class="container">
                 <div class="row m-b-20 m-b-md-40">
-                    <div class="col-md-4 m-b-20 m-b-md-0">
+                    <div class="col-md-3 m-b-20 m-b-md-0">
                         <h6 class="m-b-5 text-uppercase text-light">{$lang.contact_us}</h6>
                         <nav class="m-b-20">
                             <ul class="list-unstyled">
@@ -21,23 +21,33 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-md-4 m-b-20 m-b-md-0">
-                        <h6 class="m-b-5 text-uppercase text-light"><?php echo Configuration::$web_page; ?></h6>
+                    <div class="col-md-3 m-b-20 m-b-md-0">
+                        <h6 class="m-b-5 text-uppercase text-light">{$lang.website}</h6>
                         <nav>
-                            <ul>
-                                <li class="m-b-5"><a href="/" class="text-light">{$lang.home} | {$lang.services}</a></li>
-                                <li class="m-b-5"><a href="/contactanos" class="text-light">{$lang.contact_us}</a></li>
+                            <ul class="list-unstyled">
+                                <li class="m-b-5"><a href="#inicio" class="text-light">{$lang.home}</a></li>
+            					<li class="m-b-5"><a href="#covid-19" class="text-light">{$lang.covid_19}</a></li>
+            					<li class="m-b-5"><a href="#otros-servicios" class="text-light">{$lang.other_services}</a></li>
+            					<li class="m-b-5"><a href="#contactanos" class="text-light">{$lang.contact_us}</a></li>
+            					<li class="m-b-5"><a href="/vcard" class="text-light">{$lang.vcard}</a></li>
                                 <li><a href="/aviso-de-privacidad" class="text-light">{$lang.privacy_notice}</a></li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
-                        <figure>
-                            <img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid" style="height:100px;">
+                    <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                        <figure style="width:100%;max-width:100px;">
+                            <img src="{$path.images}imagotype_white_2.png" alt="Logotype" style="width:100%;">
                         </figure>
                     </div>
                 </div>
-                <p class="text-light">Copyright © 2021 <a href="https://one-consultores.com" target="_blank" class="text-light"><strong>One Consultores</strong></a> <i class="fas fa-heart" style="color:#f44336;"></i> {$lang.website} {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-light"><strong>Code Monkey</strong></a></p>
+                <div class="row">
+                    <div class="col-md-6 m-b-20 m-b-md-0">
+                        <p class="text-light">Copyright © 2021 <a href="https://one-consultores.com" target="_blank" class="text-light"><strong>One Consultores</strong></a> <i class="fas fa-heart" style="color:#f44336;"></i> {$lang.website} {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-light"><strong>Code Monkey</strong></a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-right text-light" style="font-size:10px;">Dictámen sanitario: DPCRS-CZNCS-1029-2021 | MSA1907259GA | Marbu Salud S.A. de C.V.</p>
+                    </div>
+                </div>
             </div>
         </footer>
         <script src="{$path.js}jquery-3.4.1.min.js"></script>
