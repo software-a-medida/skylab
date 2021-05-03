@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
                         <figure>
-                            <img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid">
+                            <img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid" style="height:100px;">
                         </figure>
                     </div>
                 </div>

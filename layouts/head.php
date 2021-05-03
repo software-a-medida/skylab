@@ -22,7 +22,7 @@
 				<div class="row d-flex align-items-center">
 					<div class="col-4 col-md-2">
 						<figure>
-							<img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid">
+							<img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid" style="height:40px;">
 						</figure>
 					</div>
 					<div data-desktop class="col-10">
