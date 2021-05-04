@@ -7,7 +7,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
 ?>
 
 <main>
-    <section id="inicio" class="pos-relative" style="height:40vh;">
+    <section class="pos-relative" style="height:40vh;">
         <figure style="height:100%;">
             <img src="{$path.images}home.jpg" alt="Home" class="img-cover">
         </figure>

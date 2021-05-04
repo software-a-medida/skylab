@@ -28,7 +28,7 @@
 					<div data-desktop class="col-10">
 						<nav>
 							<ul class="d-flex align-items-center justify-content-end list-unstyled">
-								<li class="m-l-15"><a href="#inicio" class="text-uppercase text-light">{$lang.home}</a></li>
+								<li class="m-l-15"><a href="/" class="text-uppercase text-light">{$lang.home}</a></li>
 								<li class="m-l-15"><a href="#covid-19" class="text-uppercase text-light">{$lang.covid_19}</a></li>
 								<li class="m-l-15"><a href="#otros-servicios" class="text-uppercase text-light">{$lang.other_services}</a></li>
 								<li class="m-l-15"><a href="#cotiza-ahora" class="text-uppercase text-light">{$lang.quote_now}</a></li>
