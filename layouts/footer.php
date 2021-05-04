@@ -1,6 +1,6 @@
 <?php defined('_EXEC') or die; ?>
 
-        <footer class="p-20 p-md-40" style="background-color:<?php echo Configuration::$vars['colors']['first']; ?>;">
+        <footer class="p-40" style="background-color:<?php echo Configuration::$vars['colors']['first']; ?>;">
             <div class="container">
                 <div class="row m-b-20 m-b-md-40">
                     <div class="col-md-3 m-b-20 m-b-md-0">
@@ -28,24 +28,25 @@
                                 <li class="m-b-5"><a href="#inicio" class="text-light">{$lang.home}</a></li>
             					<li class="m-b-5"><a href="#covid-19" class="text-light">{$lang.covid_19}</a></li>
             					<li class="m-b-5"><a href="#otros-servicios" class="text-light">{$lang.other_services}</a></li>
-            					<li class="m-b-5"><a href="#contactanos" class="text-light">{$lang.contact_us}</a></li>
+            					<li class="m-b-5"><a href="#cotiza-ahora" class="text-light">{$lang.quote_now}</a></li>
+            					<li class="m-b-5"><a href="https://skylab.setmore.com/" target="_blank" class="text-light">{$lang.book_now}</a></li>
             					<li class="m-b-5"><a href="/vcard" class="text-light">{$lang.vcard}</a></li>
                                 <li><a href="/aviso-de-privacidad" class="text-light">{$lang.privacy_notice}</a></li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                    <div class="col-md-6 d-flex justify-content-end">
                         <figure style="width:100%;max-width:100px;">
                             <img src="{$path.images}imagotype_white_2.png" alt="Logotype" style="width:100%;">
                         </figure>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 m-b-20 m-b-md-0">
-                        <p class="text-light">Copyright © 2021 <a href="https://one-consultores.com" target="_blank" class="text-light"><strong>One Consultores</strong></a> <i class="fas fa-heart" style="color:#f44336;"></i> {$lang.website} {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-light"><strong>Code Monkey</strong></a></p>
+                    <div class="col-md-6 order-2 order-md-1">
+                        <p class="text-light">Copyright © 2021 <a href="https://one-consultores.com" target="_blank" class="text-light"><strong>One Consultores</strong></a> <i data-desktop class="fas fa-heart" style="color:#f44336;"></i> <br data-mobile-block> {$lang.website} {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-light"><strong>Code Monkey</strong></a></p>
                     </div>
-                    <div class="col-md-6">
-                        <p class="text-right text-light" style="font-size:10px;">Dictámen sanitario: DPCRS-CZNCS-1029-2021 | MSA1907259GA | Marbu Salud S.A. de C.V.</p>
+                    <div class="col-md-6 order-1 order-md-2 m-b-10 m-b-md-0">
+                        <p class="text-left text-md-right text-light">Dictámen sanitario: DPCRS-CZNCS-1029-2021 <span data-desktop>|</span> <br data-mobile-block> MSA1907259GA <span data-desktop>|</span> Marbu Salud S.A. de C.V.</p>
                     </div>
                 </div>
             </div>

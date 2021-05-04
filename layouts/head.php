@@ -21,17 +21,18 @@
 			<div class="container">
 				<div class="row d-flex align-items-center">
 					<div class="col-4 col-md-2">
-						<figure>
+						<figure class="d-none">
 							<img src="{$path.images}imagotype_white_1.png" alt="Logotype" class="img-fluid" style="height:40px;">
 						</figure>
 					</div>
 					<div data-desktop class="col-10">
 						<nav>
 							<ul class="d-flex align-items-center justify-content-end list-unstyled">
-								<li><a href="#inicio" class="text-uppercase text-light">{$lang.home}</a></li>
+								<li class="m-l-15"><a href="#inicio" class="text-uppercase text-light">{$lang.home}</a></li>
 								<li class="m-l-15"><a href="#covid-19" class="text-uppercase text-light">{$lang.covid_19}</a></li>
 								<li class="m-l-15"><a href="#otros-servicios" class="text-uppercase text-light">{$lang.other_services}</a></li>
-								<li class="m-l-15"><a href="#contactanos" class="text-uppercase text-light">{$lang.contact_us}</a></li>
+								<li class="m-l-15"><a href="#cotiza-ahora" class="text-uppercase text-light">{$lang.quote_now}</a></li>
+								<li class="m-l-15"><a href="https://skylab.setmore.com/" target="_blank" class="text-uppercase text-light">{$lang.book_now}</a></li>
 								<li class="m-l-15"><a href="/vcard" class="text-uppercase text-light">{$lang.vcard}</a></li>
 								<li class="m-l-15"><a href="?lang=es"><img src="{$path.images}es.jpg" alt="ES Lang" style="height:15px;"></a></li>
 								<li class="m-l-15"><a href="?lang=en"><img src="{$path.images}en.jpg" alt="EN Lang" style="height:15px;"></a></li>
@@ -39,19 +40,20 @@
 						</nav>
 					</div>
 					<div data-mobile-flex class="col-8 d-flex align-items-center justify-content-end">
-						<a data-action="open_mobile_menu" class="btn btn-light"><i class="fas fa-bars"></i></a>
+						<a data-action="open_mobile_menu" class="btn btn-b-none" style="background-color:<?php echo Configuration::$vars['colors']['second']; ?>;"><i class="fas fa-bars"></i></a>
 					</div>
 				</div>
 			</div>
 		</header>
-		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center p-20" style="width:300px;height:100vh;right:-300px;background-color:#000;transition:400ms;z-index:99;">
-			<a data-action="close_mobile_menu" class="btn btn-light pos-absolute" style="top:20px;right:20px;"><i class="fas fa-times"></i></a>
+		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center p-20" style="width:300px;height:100vh;right:-300px;background-color:<?php echo Configuration::$vars['colors']['first']; ?>;transition:400ms;z-index:99;">
+			<a data-action="close_mobile_menu" class="btn btn-b-none pos-absolute" style="top:20px;right:20px;background-color:<?php echo Configuration::$vars['colors']['first']; ?>;"><i class="fas fa-times"></i></a>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
 					<li class="m-b-20"><a href="#inicio" class="text-uppercase text-light">{$lang.home}</a></li>
 					<li class="m-b-20"><a href="#covid-19" class="text-uppercase text-light">{$lang.covid_19}</a></li>
 					<li class="m-b-20"><a href="#otros-servicios" class="text-uppercase text-light">{$lang.other_services}</a></li>
-					<li class="m-b-20"><a href="#contactanos" class="text-uppercase text-light">{$lang.contact_us}</a></li>
+					<li class="m-b-20"><a href="#cotiza-ahora" class="text-uppercase text-light">{$lang.quote_now}</a></li>
+					<li class="m-b-20"><a href="https://skylab.setmore.com/" target="_blank" class="text-uppercase text-light">{$lang.book_now}</a></li>
 					<li class="m-b-20"><a href="/vcard" class="text-uppercase text-light">{$lang.vcard}</a></li>
 					<li><a href="?lang=es" class="m-r-20"><img src="{$path.images}es.jpg" alt="ES Lang" style="height:20px;"></a><a href="?lang=en"><img src="{$path.images}en.jpg" alt="EN Lang" style="height:20px;"></a></li>
 				</ul>

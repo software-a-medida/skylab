@@ -114,6 +114,10 @@ body * {
     background-color: rgba(var(--second), 1) !important;
 }
 
+#desktop_menu.down figure {
+    display: block !important;
+}
+
 @media (max-width: 768px) {
 
     #mobile_menu.open {

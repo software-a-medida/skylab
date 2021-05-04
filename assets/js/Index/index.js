@@ -2,7 +2,7 @@
 
 $(document).ready(function()
 {
-    $('form[name="contact_us"]').on('submit', function(e)
+    $('form[name="quote_now"]').on('submit', function(e)
     {
         e.preventDefault();
 
@@ -10,7 +10,7 @@ $(document).ready(function()
 
         $.ajax({
             type: 'POST',
-            data: form.serialize() + '&action=contact_us',
+            data: form.serialize() + '&action=quote_now',
             processData: false,
             cache: false,
             dataType: 'json',
