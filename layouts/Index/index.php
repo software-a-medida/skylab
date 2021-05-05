@@ -55,9 +55,9 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <h6 class="m-b-5">{$lang.result_yes_not_infection}</h6>
                     <h6 class="m-b-5">{$lang.period_7_days}</h6>
                     <h6 class="m-b-5">{$lang.15_minutes_preccess}</h6>
-                    <p class="m-b-20">{$lang.covid_an_test_description}</p>
-                    <h6 class="m-b-5">{$lang.in_sucursal}: $ 35 USD</h6>
-                    <h6 class="m-b-5">{$lang.in_hotel}: $ 45 USD (Cancún e Isla Mujeres, Playa del Carmen & Tulúm)</h6>
+                    <p class="m-b-20">{$lang.covid_an_test_description}/p>
+                    <h6 class="m-b-5">{$lang.in_sucursal}: $ 18 USD</h6>
+                    <h6 class="m-b-5">{$lang.in_hotel}: $ 22 USD (Cancún e Isla Mujeres, Playa del Carmen & Tulúm)</h6>
                     <h6 class="m-b-5">+ $ 28 USD {$lang.with_transfer}</h6>
                     <h6 class="m-b-20">+ 4% {$lang.to_pay_with_card}</h6>
                     <a href="https://skylab.setmore.com/" target="_blank" class="btn btn-b-none" style="background-color:<?php echo Configuration::$vars['colors']['second']; ?>">{$lang.book_now}</a>
@@ -77,8 +77,8 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <h6 class="m-b-5">{$lang.period_7_days}</h6>
                     <h6 class="m-b-5">{$lang.15_minutes_preccess}</h6>
                     <p class="m-b-20">{$lang.covid_ac_test_description}</p>
-                    <h6 class="m-b-5">{$lang.in_sucursal}: $ 35 USD</h6>
-                    <h6 class="m-b-5">{$lang.in_hotel}: $ 45 USD (Cancún e Isla Mujeres, Playa del Carmen & Tulúm)</h6>
+                    <h6 class="m-b-5">{$lang.in_sucursal}: $ 18 USD</h6>
+                    <h6 class="m-b-5">{$lang.in_hotel}: $ 22 USD (Cancún e Isla Mujeres, Playa del Carmen & Tulúm)</h6>
                     <h6 class="m-b-5">+ $ 28 USD {$lang.with_transfer}</h6>
                     <h6 class="m-b-20">+ 4% {$lang.to_pay_with_card}</h6>
                     <a href="https://skylab.setmore.com/" target="_blank" class="btn btn-b-none" style="background-color:<?php echo Configuration::$vars['colors']['second']; ?>">{$lang.book_now}</a>
@@ -165,6 +165,42 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     </div>
                 </div>
             </form>
+        </div>
+    </section>
+    <section class="p-20 p-md-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <figure class="d-flex align-items-center justify-content-center" style="height:40px;">
+                        <img src="{$path.images}logotype.png" alt="SkyLab" style="height:100%;">
+                    </figure>
+                </div>
+                <div class="col-2">
+                    <figure class="d-flex align-items-center justify-content-center" style="height:40px;">
+                        <img src="{$path.images}secretaria_salud.png" alt="Secretaría de salud" style="height:100%;">
+                    </figure>
+                </div>
+                <div class="col-2">
+                    <figure class="d-flex align-items-center justify-content-center" style="height:40px;">
+                        <img src="{$path.images}cofepris.png" alt="COFEPRIS" style="height:100%;">
+                    </figure>
+                </div>
+                <div class="col-2">
+                    <figure class="d-flex align-items-center justify-content-center" style="height:40px;">
+                        <img src="{$path.images}qroo_gobierno.png" alt="Gobierno de Qroo" style="height:100%;">
+                    </figure>
+                </div>
+                <div class="col-2">
+                    <figure class="d-flex align-items-center justify-content-center" style="height:40px;">
+                        <img src="{$path.images}qroo_oportunidades.png" alt="Qroo Mas y mejores oportunidades" style="height:100%;">
+                    </figure>
+                </div>
+                <div class="col-2">
+                    <figure class="d-flex align-items-center justify-content-center" style="height:40px;">
+                        <img src="{$path.images}qroo_sesa.png" alt="SESA" style="height:100%;">
+                    </figure>
+                </div>
+            </div>
         </div>
     </section>
 </main>
