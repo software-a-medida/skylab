@@ -11,4 +11,4 @@ Disallow: /uploads/
 Disallow: /configuration.php
 Disallow: /favicon.ico
 Disallow: /index.php
-Sitemap: https://skylab.one-consultores.com/sitemap.xml
+Sitemap: https://skylabs.mx/sitemap.xml

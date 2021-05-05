@@ -20,8 +20,8 @@
         </div>
         <div class="buttons">
             <a href="https://www.google.com.mx/maps/dir//21.1487581,-86.8450274/@21.1490613,-86.8451551,18z/data=!4m2!4m1!3e0" target="_blank"><i class="fas fa-map-marked-alt"></i><span>Ubicación</span></a>
-            <a href="https://skylab.one-consultores.com" target="_blank"><i class="fas fa-globe"></i><span>Sitio web</span></a>
-            <a data-action="share" data-title="SkyLab" data-text="¡Conóce SkyLab!" data-url="https://skylab.one-consultores.com/vcard"><i class="fas fa-share-alt"></i><span>Compartir</span></a>
+            <a href="https://skylabs.mx" target="_blank"><i class="fas fa-globe"></i><span>Sitio web</span></a>
+            <a data-action="share" data-title="SkyLab" data-text="¡Conóce SkyLab!" data-url="https://skylabs.mx/vcard"><i class="fas fa-share-alt"></i><span>Compartir</span></a>
         </div>
     </main>
 </article>

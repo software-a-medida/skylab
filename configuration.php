@@ -19,7 +19,7 @@ class Configuration
 	 *
      * @var string $domain
      */
-	public static $domain = 'skylab.one-consultores.com';
+	public static $domain = 'skylabs.mx';
 
 	/**
      * Nombre del sitio web.
