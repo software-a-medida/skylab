@@ -231,7 +231,7 @@ class Configuration
 	 *
      * @var string $smtp_host
      */
-	public static $smtp_host = 'smtp.gmail.com';
+	public static $smtp_host = 'mail.codemonkey.com.mx';
 
 	/**
      * Usuario de la cuenta smtp.
@@ -241,7 +241,7 @@ class Configuration
 	 *
      * @var string $smtp_user
      */
-	public static $smtp_user = 'noreply@one-consultores.com';
+	public static $smtp_user = 'noreply@skylabs.mx';
 
 	/**
      * Contraseña de la cuenta smtp.
@@ -250,7 +250,7 @@ class Configuration
 	 *
      * @var string $smtp_pass
      */
-	public static $smtp_pass = '5G>BaT&9';
+	public static $smtp_pass = '@9zeF8a8';
 
 	/**
      * Seguridad de la encriptacion para el envio de SMTP.
@@ -260,7 +260,7 @@ class Configuration
 	 *
      * @var string $smtp_secure
      */
-	public static $smtp_secure = 'tls';
+	public static $smtp_secure = 'ssl';
 
 	/**
      * Puerto de conexion al servidor SMTP.
@@ -269,7 +269,7 @@ class Configuration
 	 *
      * @var integer $smtp_port
      */
-	public static $smtp_port = 587;
+	public static $smtp_port = 465;
 
 	/**
      * Correo electrónico de emailing.
@@ -278,7 +278,7 @@ class Configuration
 	 *
      * @var integer $smtp_emailer
      */
-	public static $smtp_emailer = 'skylab@one-consultores.com';
+	public static $smtp_emailer = 'noreply@skylabs.mx';
 
 	/**
      * Variables generales.
@@ -289,21 +289,17 @@ class Configuration
      */
 	public static $vars = [
 		'contact' => [
-			'email' => 'skylab@one-consultores.com',
+			'email' => 'contacto@skylabs.mx',
 			'phone' => '+52 (998) 440 33 02'
 		],
 		'rrss' => [
 			'facebook' => [
-				'url' => 'https://facebook.com/skylabsalud',
-				'user' => '@skylabsalud'
+				'url' => 'https://facebook.com/skylabsmx',
+				'user' => '@skylabsmx'
 			],
 			'instagram' => [
-				'url' => 'https://instagram.com/skylabsalud',
-				'user' => '@skylabsalud'
-			],
-			'linkedin' => [
-				'url' => 'https://linkedin.com/company/skylabsalud',
-				'user' => '@skylabsalud'
+				'url' => 'https://instagram.com/skylabsmx',
+				'user' => '@skylabsmx'
 			],
 			'whatsapp' => [
 				'url' => 'https://api.whatsapp.com/send?phone=+529984403302',

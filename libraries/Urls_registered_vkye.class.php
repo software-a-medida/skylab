@@ -17,10 +17,6 @@ class Urls_registered_vkye
                 'controller' => 'Index',
                 'method' => 'vcard'
             ],
-            '/card' => [
-                'controller' => 'Index',
-                'method' => 'vcard'
-            ],
             '/aviso-de-privacidad' => [
                 'controller' => 'Index',
                 'method' => 'privacy_notice'
