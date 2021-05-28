@@ -222,7 +222,7 @@ class Configuration
 	 *
      * @var boolean $smtp_auth
      */
-	public static $smtp_auth = true;
+	public static $smtp_auth = false;
 
 	/**
      * Dominio o IP del servidor SMTP.
@@ -231,7 +231,7 @@ class Configuration
 	 *
      * @var string $smtp_host
      */
-	public static $smtp_host = 'in-v3.mailjet.com';
+	public static $smtp_host = '';
 
 	/**
      * Usuario de la cuenta smtp.
@@ -241,7 +241,7 @@ class Configuration
 	 *
      * @var string $smtp_user
      */
-	public static $smtp_user = '13c0af54f3a22b1432b88877d1c57649';
+	public static $smtp_user = '';
 
 	/**
      * Contraseña de la cuenta smtp.
@@ -250,7 +250,7 @@ class Configuration
 	 *
      * @var string $smtp_pass
      */
-	public static $smtp_pass = '3b4baa1fdfc5d84599fdc4857df89ed7';
+	public static $smtp_pass = '';
 
 	/**
      * Seguridad de la encriptacion para el envio de SMTP.
