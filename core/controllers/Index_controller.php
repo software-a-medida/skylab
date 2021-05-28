@@ -13,12 +13,12 @@ class Index_controller extends Controller
 	{
 		if (Format::exist_ajax_request() == true)
 		{
-			if ($_POST['action'] == 'quote_now')
+			if ($_POST['action'] == 'contact_us')
 			{
 				$errors = [];
 
-				if (empty($_POST['service']))
-					array_push($errors, ['{$lang.service}: {$lang.dont_leave_this_field_empty}']);
+				if (empty($_POST['test_type']))
+					array_push($errors, ['{$lang.test_type}: {$lang.dont_leave_this_field_empty}']);
 
 				if (empty($_POST['tests_number']))
 					array_push($errors, ['{$lang.tests_number}: {$lang.dont_leave_this_field_empty}']);
@@ -43,22 +43,22 @@ class Index_controller extends Controller
 					{
 						$mail->setFrom(Configuration::$smtp_emailer, Configuration::$web_page);
 						$mail->addAddress(Configuration::$vars['contact']['email'], Configuration::$web_page);
-						$mail->Subject = 'Nueva cotización';
+						$mail->Subject = 'Nuevo contacto';
 						$mail->Body =
-						'Servicio: ' . $_POST['service'] . '<br>
+						'Tipo de prueba: ' . $_POST['test_type'] . '<br>
 						Número de pruebas: ' . $_POST['tests_number'] . '<br>
 						Lugar: ' . $_POST['place'] . '<br>
 						Nombre: ' . $_POST['name'] . '<br>
 						Correo electrónico: ' . $_POST['email'] . '<br>
 						Teléfono: ' . $_POST['phone'] . '<br>
-						Mensaje: ' . !empty($_POST['message']) ? $_POST['message'] : 'Sin mensaje';
+						Observaciones: ' . !empty($_POST['observations']) ? $_POST['observations'] : 'Sin observaciones';
 						$mail->send();
 					}
 					catch (Exception $e) {}
 
 					echo json_encode([
 						'status' => 'success',
-						'message' => '{$lang.thanks_for_quote_now}'
+						'message' => '{$lang.thanks_for_contact_us}'
 					]);
 				}
 				else
