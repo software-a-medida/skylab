@@ -15,7 +15,7 @@ $this->dependencies->add(['js', '{$path.js}Index/vcard.js?v=1.0']);
         </div>
     </section>
     <section class="p-t-20 p-r-20 p-l-20">
-        <div class="row no-gutters">
+        <div class="row">
             <div class="col-4 m-b-20 text-center">
                 <a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" target="_blank" class="text-dark" style="font-size:40px;"><i class="fas fa-phone-alt"></i></a>
                 <p>{$lang.call}</p>

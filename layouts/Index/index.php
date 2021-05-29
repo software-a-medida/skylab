@@ -42,7 +42,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
     <section class="p-t-40 p-r-40 p-l-40">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 m-b-20 m-b-md-0">
+                <div class="col-md-4 m-b-40 m-b-md-0">
                     <div class="p-20 m-b-20" style="border-radius:5px;background-color:#ff9800;">
                         <h3 class="text-center text-uppercase text-light" style="font-size:40px;"><strong>{$lang.pcr}</strong></h3>
                     </div>
@@ -68,7 +68,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
                         <h4 class="text-center text-uppercase" style="font-size:40px;color:#ff9800;"><strong>$ 50 USD</strong></h4>
                     </div>
                 </div>
-                <div class="col-md-4 m-b-20 m-b-md-0">
+                <div class="col-md-4 m-b-40 m-b-md-0">
                     <div class="p-20 m-b-20" style="border-radius:5px;background-color:#009688;">
                         <h3 class="text-center text-uppercase text-light" style="font-size:40px;"><strong>{$lang.antigen}</strong></h3>
                     </div>
@@ -348,8 +348,8 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
             <div class="row">
                 <div class="col-md-6 m-b-20 m-b-md-0">
                     <h2 class="m-b-20 text-center text-md-left" style="font-size:40px;">{$lang.contact_with_us}</h2>
-                    <p class="m-b-20 text-justify" style="font-size:18px;">{$lang.we_communicate_with_you}</p>
-                    <div class="row">
+                    <p class="m-b-0 m-b-md-20 text-justify" style="font-size:18px;">{$lang.we_communicate_with_you}</p>
+                    <div data-desktop class="row">
                         <div class="col-md-6 m-b-20 m-b-md-0">
                             <h6 class="m-b-10 text-uppercase"><strong>{$lang.address}</strong></h6>
                             <p class="m-b-20"><?php echo Configuration::$vars['address']; ?></p>

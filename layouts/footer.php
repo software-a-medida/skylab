@@ -39,29 +39,29 @@
                         </figure>
                     </div>
                 </div>
-                <div class="row m-b-20 m-b-md-40">
-                    <div class="col-3">
-                        <figure class="p-10 text-center" style="border:1px solid #eee;border-radius:5px;">
+                <div class="row no-gutters m-b-20 m-b-md-40">
+                    <div class="col-3 p-5">
+                        <figure class="p-5 p-md-10 text-center" style="border:1px solid #eee;border-radius:5px;">
                             <img src="{$path.images}secretaria_salud.png" alt="Secretaría de salud" class="hgt-auto" style="max-height:60px;">
                         </figure>
                     </div>
-                    <div class="col-2">
-                        <figure class="p-10 text-center" style="border:1px solid #eee;border-radius:5px;">
+                    <div class="col-2 p-5">
+                        <figure class="p-5 p-md-10 text-center" style="border:1px solid #eee;border-radius:5px;">
                             <img src="{$path.images}cofepris.png" alt="COFEPRIS" class="hgt-auto" style="max-height:60px;">
                         </figure>
                     </div>
-                    <div class="col-2">
-                        <figure class="p-10 text-center" style="border:1px solid #eee;border-radius:5px;">
+                    <div class="col-2 p-5">
+                        <figure class="p-5 p-md-10 text-center" style="border:1px solid #eee;border-radius:5px;">
                             <img src="{$path.images}qroo_gobierno_1.png" alt="Gobierno de Qroo" class="hgt-auto" style="max-height:60px;">
                         </figure>
                     </div>
-                    <div class="col-2">
-                        <figure class="p-10 text-center" style="border:1px solid #eee;border-radius:5px;">
+                    <div class="col-2 p-5">
+                        <figure class="p-5 p-md-10 text-center" style="border:1px solid #eee;border-radius:5px;">
                             <img src="{$path.images}qroo_gobierno_2.png" alt="Gobierno de Qroo" class="hgt-auto" style="max-height:60px;">
                         </figure>
                     </div>
-                    <div class="col-3">
-                        <figure class="p-10 text-center" style="border:1px solid #eee;border-radius:5px;">
+                    <div class="col-3 p-5">
+                        <figure class="p-5 p-md-10 text-center" style="border:1px solid #eee;border-radius:5px;">
                             <img src="{$path.images}qroo_sesa.png" alt="SESA" class="hgt-auto" style="max-height:60px;">
                         </figure>
                     </div>
