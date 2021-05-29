@@ -22,9 +22,9 @@
 				<div class="row d-flex align-items-center">
 					<div class="col-4 col-md-2">
 						<figure>
-							<a href="#inicio">
-								<img src="{$path.images}logotype_white.png" alt="Logotype" class="img-fluid" style="height:40px;">
-								<img src="{$path.images}logotype_color.png" alt="Logotype" class="d-none img-fluid" style="height:40px;">
+							<a href="/">
+								<img src="{$path.images}logotype_light.png" alt="Logotype" class="img-fluid" style="max-height:40px;">
+								<img src="{$path.images}logotype.png" alt="Logotype" class="d-none img-fluid" style="max-height:40px;">
 							</a>
 						</figure>
 					</div>
@@ -32,7 +32,7 @@
 						<nav>
 							<ul class="d-flex align-items-center justify-content-end list-unstyled">
 								<li><a href="#pruebas-covid-19" class="text-uppercase text-light">{$lang.tests} COVID-19</a></li>
-								<li class="m-l-20"><a href="https://skylab.setmore.com/" target="_blank" class="btn btn-light text-uppercase">{$lang.book_now}</a></li>
+								<li class="m-l-20"><a href="#agenda-una-cita" class="btn btn-light text-uppercase">{$lang.schedule_an_appointment}</a></li>
 								<li class="m-l-20"><a href="#contactanos" class="text-uppercase text-light">{$lang.contact_us}</a></li>
 								<li class="m-l-20"><a href="?lang=es"><img src="{$path.images}mex.png" alt="ES Lang" style="height:20px;"></a></li>
 								<li class="m-l-20"><a href="?lang=en"><img src="{$path.images}usa.png" alt="EN Lang" style="height:20px;"></a></li>
@@ -40,18 +40,18 @@
 							</ul>
 						</nav>
 					</div>
-					<div data-mobile-flex class="col-8 d-flex align-items-center justify-content-end">
-						<a data-action="open_mobile_menu" class="btn btn-light"><i class="fas fa-bars"></i></a>
+					<div data-mobile-block class="col-8 text-right">
+						<a data-action="open_mobile_menu" class="p-r-20 text-light" style="font-size:24px;"><i class="fas fa-bars"></i></a>
 					</div>
 				</div>
 			</div>
 		</header>
 		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center p-40" style="width:300px;height:100vh;right:-300px;background-color:#fff;transition:400ms;z-index:99;">
-			<a data-action="close_mobile_menu" class="btn btn-light pos-absolute" style="top:20px;right:20px;"><i class="fas fa-times"></i></a>
+			<a data-action="close_mobile_menu" class="pos-absolute p-r-10 text-dark" style="top:20px;right:20px;font-size:24px;"><i class="fas fa-times"></i></a>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
 					<li class="m-b-20"><a href="#pruebas-covid-19" class="text-uppercase text-dark">{$lang.tests} COVID-19</a></li>
-					<li class="m-b-20"><a href="https://skylab.setmore.com/" target="_blank" class="btn btn-dark text-uppercase">{$lang.book_now}</a></li>
+					<li class="m-b-20"><a href="#agenda-una-cita" class="btn btn-dark text-uppercase">{$lang.schedule_an_appointment}</a></li>
 					<li class="m-b-20"><a href="#contactanos" class="text-uppercase text-dark">{$lang.contact_us}</a></li>
 					<li><a href="?lang=es" class="m-r-20"><img src="{$path.images}mex.png" alt="ES Lang" style="height:20px;"></a><a href="?lang=en" class="m-r-20"><img src="{$path.images}usa.png" alt="EN Lang" style="height:20px;"></a><a href="?lang=pr"><img src="{$path.images}bra.png" alt="PR Lang" style="height:20px;"></a></li>
 				</ul>

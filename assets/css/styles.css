@@ -94,18 +94,6 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
     src: url("../fonts/Montserrat-Regular.ttf");
 }
 
-body * {
-    font-family: 'Montserrat-Regular' !important;
-}
-
-.fa, .far, .fas {
-    font-family: 'Font Awesome 5 Free' !important;
-}
-
-.fab {
-    font-family: 'Font Awesome 5 Brands' !important;
-}
-
 /* */
 
 #desktop_menu.down {
@@ -136,16 +124,20 @@ body * {
         right: 0px !important;
     }
 
-    #inicio h1 {
-        display: block !important;
-        font-size: 40px !important;
-    }
-
+    #inicio h1,
     #inicio h2 {
         font-size: 40px !important;
     }
 
+    #inicio h1 {
+        display: block !important;
+    }
+
     #inicio p {
         font-size: 18px !important;
+    }
+
+    .hgt-auto {
+        width: 100% !important;
     }
 }

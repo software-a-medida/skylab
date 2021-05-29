@@ -120,7 +120,7 @@ class Configuration
 	 *
      * @var boolean $db_state
      */
-	public static $db_state = false;
+	public static $db_state = true;
 
 	/**
      * Tipo de base de datos.
@@ -139,7 +139,7 @@ class Configuration
 	 *
      * @var string $db_host
      */
-	public static $db_host = '';
+	public static $db_host = '149.56.81.137';
 
 	/**
      * Nombre de la base de datos
@@ -148,7 +148,7 @@ class Configuration
 	 *
      * @var string $db_name
      */
-	public static $db_name = '';
+	public static $db_name = 'idone';
 
 	/**
      * Usuario de la base de datos
@@ -157,7 +157,7 @@ class Configuration
 	 *
      * @var string $db_user
      */
-	public static $db_user = '';
+	public static $db_user = 'oneconsultores';
 
 	/**
      * Contraseña de la base de datos.
@@ -166,7 +166,7 @@ class Configuration
 	 *
      * @var string $db_pass
      */
-	public static $db_pass = '';
+	public static $db_pass = '*V50auu9';
 
 	/**
      * Tipo de caracteres para la base de datos. Opcional.
@@ -305,6 +305,11 @@ class Configuration
 				'url' => 'https://api.whatsapp.com/send?phone=+529984403302',
 				'user' => '+52 (998) 440 33 02'
 			]
+		],
+		'address' => 'Calle Xpuhil, Ext 1, Lote 5, Manzana 1, CP 77509, Cancún, Quintana roo, México.',
+		'legal' => [
+			'rfc' => 'MSA1907259GA',
+			'sanitary_opinion' => 'DPCRS-CZNCS-1029-2021'
 		]
 	];
 }
