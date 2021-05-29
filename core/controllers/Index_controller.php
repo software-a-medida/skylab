@@ -177,8 +177,13 @@ class Index_controller extends Controller
 											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:center;color:#757575;">' . Languages::email('please_use_your_face_mask') . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
+											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;">
+												<img style="width:100%;" src="https://' . Configuration::$domain . '/images/vcard_qr.png">
+											</td>
+										</tr>
+										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
 											<td style="width:100%;margin:0px;padding:20px;border:0px;box-sizing:border-box;">
-												<img style="width:100%;" src="https://' . Configuration::$domain . '/images/qr_vcard.png">
+												<a style="width:100%;display:block;margin:0px;padding:10px;border:0px;border-radius:5px;box-sizing:border-box;background-color:#009688;font-size:14px;font-weight:400;text-align:center;text-decoration:none;color:#fff;" href="https://' . Configuration::$domain . '/vcard">' . Languages::email('vcard') . '</a>
 											</td>
 										</tr>
 									</table>

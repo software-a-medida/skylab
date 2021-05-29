@@ -137,6 +137,11 @@ class Languages
                 'en' => '',
                 'pr' => ''
             ],
+            'vcard' => [
+                'es' => 'Tarjeta de contacto',
+                'en' => '',
+                'pr' => ''
+            ],
             'power_by' => [
                 'es' => 'Poder por',
                 'en' => '',
