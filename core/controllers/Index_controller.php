@@ -76,7 +76,7 @@ class Index_controller extends Controller
 									<table style="width:100%;max-width:600px;margin:0px;padding:0px;border:0px;background-color:#2196F3;">
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
 											<td style="width:100px;margin:0px;padding:20px 0px 20px 20px;border:0px;box-sizing:border-box;vertical-align:middle;">
-												<img style="width:100px" src="https://' . Configuration::$domain . '/images/icontype.png">
+												<img style="width:100px" src="https://' . Configuration::$domain . '/assets/images/icontype.png">
 											</td>
 											<td style="width:auto;margin:0px;padding:20px;border:0px;box-sizing:border-box;vertical-align:middle;">
 												<table style="width:100%;margin:0px;padding:0px;border:0px;">
@@ -98,87 +98,87 @@ class Index_controller extends Controller
 									</table>
 									<table style="width:100%;max-width:600px;margin:20px 0px;padding:0px;border:1px dashed #bdbdbd;box-sizing:border-box;background-color:#fff;">
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:18px;font-weight:600;text-align:center;text-transform:uppercase;color:#000;">' . Languages::email('your_appointment') . '</td>
+											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:24px;font-weight:600;text-align:center;text-transform:uppercase;color:#000;">' . Languages::email('your_appointment') . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('your_token') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('your_token') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . $_POST['token'] . '</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . $_POST['token'] . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_type') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_type') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . Languages::email($_POST['test']) . '</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . Languages::email($_POST['test']) . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('tests_number') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('tests_number') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . $_POST['paxs'] . ' Paxs</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . $_POST['paxs'] . ' Paxs</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_place') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_place') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . Languages::email($_POST['place']) . '</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . Languages::email($_POST['place']) . '</td>
 										</tr>';
 
 							if ($_POST['place'] == 'i_want_to_do_in_my_hotel' OR $_POST['place'] == 'i_want_them_to_come_look_for_me')
 							{
 								$mail_1->Body .=
 								'<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-									<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_zone') . '</strong></td>
+									<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_zone') . '</strong></td>
 								</tr>
 								<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-									<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . Languages::email($_POST['zone']) . '</td>
+									<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . Languages::email($_POST['zone']) . '</td>
 								</tr>
 								<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-									<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('your_hotel') . '</strong></td>
+									<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('your_hotel') . '</strong></td>
 								</tr>
 								<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-									<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . $_POST['hotel'] . '</td>
+									<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . $_POST['hotel'] . '</td>
 								</tr>';
 							}
 
 							$mail_1->Body .=
 							'			<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_date') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_date') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . $_POST['date'] . '</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . $_POST['date'] . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_hour') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('test_hour') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . $_POST['hour'] . '</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . $_POST['hour'] . ' Hrs</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('first_and_last_name') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('first_and_last_name') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . $_POST['name'] . '</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . $_POST['name'] . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('email') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('email') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . $_POST['email'] . '</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . $_POST['email'] . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('phone') . '</strong></td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#000;"><strong>' . Languages::email('phone') . '</strong></td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:left;color:#757575;">' . $_POST['phone'] . '</td>
+											<td style="width:100%;margin:0px;padding:0px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:left;color:#757575;">' . $_POST['phone'] . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
-											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:12px;font-weight:400;text-align:center;color:#757575;">' . Languages::email('please_use_your_face_mask') . '</td>
+											<td style="width:100%;margin:0px;padding:10px 20px 0px 20px;border:0px;box-sizing:border-box;font-size:14px;font-weight:400;text-align:center;color:#757575;">' . Languages::email('please_use_your_face_mask') . '</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
 											<td style="width:100%;margin:0px;padding:20px 20px 0px 20px;border:0px;box-sizing:border-box;">
-												<img style="width:100%;" src="https://' . Configuration::$domain . '/images/vcard_qr.png">
+												<img style="width:100%;" src="https://' . Configuration::$domain . '/assets/images/vcard_qr.png">
 											</td>
 										</tr>
 										<tr style="width:100%;margin:0px;padding:0px;border:0px;">
@@ -240,7 +240,7 @@ class Index_controller extends Controller
 
 						echo json_encode([
 							'status' => 'success',
-							'message' => '{$lang.thanks_for_schedule_an_appointment_with_us_1} ' . $_POST['email'] . ' {$lang.thanks_for_schedule_an_appointment_with_us_1}'
+							'message' => '{$lang.thanks_for_schedule_an_appointment_with_us_1} ' . $_POST['email'] . ' {$lang.thanks_for_schedule_an_appointment_with_us_2}'
 						]);
 					}
 					else
