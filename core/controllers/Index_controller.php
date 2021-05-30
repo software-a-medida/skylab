@@ -221,7 +221,7 @@ class Index_controller extends Controller
 						{
 							$mail_2->setFrom(Configuration::$smtp_emailer, Configuration::$web_page);
 							$mail_2->addAddress(Configuration::$vars['contact']['email'], Configuration::$web_page);
-							$mail_2->Subject = 'Nuevo cita';
+							$mail_2->Subject = 'Nueva cita';
 							$mail_2->Body =
 							'Folio: ' . $_POST['token'] . '<br>
 							Tipo de prueba: ' . Languages::email($_POST['test']) . '<br>

@@ -356,7 +356,6 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
                             <h6 class="m-b-10 text-uppercase"><strong>{$lang.contact_us}</strong></h6>
                             <a href="mailto:<?php echo Configuration::$vars['contact']['email']; ?>" target="_blank" class="d-block m-b-5 text-dark"><?php echo Configuration::$vars['contact']['email']; ?></a>
                             <a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" target="_blank" class="d-block m-b-5 text-dark"><?php echo Configuration::$vars['contact']['phone']; ?></a>
-                            <a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="d-block text-dark"><?php echo Configuration::$vars['rrss']['whatsapp']['user']; ?></a>
                         </div>
                         <div class="col-md-6">
                             <h6 class="m-b-10 text-uppercase"><strong>{$lang.attention_schedule}</strong></h6>
