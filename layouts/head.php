@@ -27,7 +27,7 @@
 		</script>
 	</head>
 	<body class="pos-relative">
-		<header id="desktop_menu" class="pos-fixed p-t-20 p-t-md-40 p-b-20 p-b-md-40 p-l-20 p-l-md-0 p-r-20 p-r-md-0" style="width:100%;transition:400ms;z-index:97;">
+		<header id="desktop_menu" class="pos-fixed p-t-20 p-t-md-40 p-b-20 p-b-md-40 p-l-20 p-l-md-0 p-r-30 p-r-md-0" style="width:100%;transition:400ms;z-index:97;">
 			<div class="container">
 				<div class="row d-flex align-items-center">
 					<div class="col-4 col-md-2">
@@ -51,13 +51,13 @@
 						</nav>
 					</div>
 					<div data-mobile-block class="col-8 text-right">
-						<a data-action="open_mobile_menu" class="p-r-20 text-light" style="font-size:24px;"><i class="fas fa-bars"></i></a>
+						<a data-action="open_mobile_menu" class="text-light" style="font-size:24px;"><i class="fas fa-bars"></i></a>
 					</div>
 				</div>
 			</div>
 		</header>
 		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center p-40" style="width:300px;height:100vh;right:-300px;background-color:#fff;transition:400ms;z-index:98;">
-			<a data-action="close_mobile_menu" class="pos-absolute p-r-10 text-dark" style="top:20px;right:20px;font-size:24px;"><i class="fas fa-times"></i></a>
+			<a data-action="close_mobile_menu" class="pos-absolute text-dark" style="top:20px;right:20px;font-size:24px;"><i class="fas fa-times"></i></a>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
 					<li class="m-b-20"><a href="#pruebas-covid-19" class="text-uppercase text-dark">{$lang.tests} COVID-19</a></li>
