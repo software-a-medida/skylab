@@ -68,7 +68,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 order-2 order-md-1">
-                        <p class="text-dark">Copyright © 2021 <a href="https://one-consultores.com" target="_blank" class="text-dark"><strong>One Consultores</strong></a> <i data-desktop class="fas fa-heart" style="color:#ff5722;"></i> <br data-mobile-block> {$lang.website} {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-dark"><strong>Code Monkey</strong></a></p>
+                        <p class="text-dark">Copyright © 2021 <a href="https://one-consultores.com" target="_blank" class="text-dark"><strong>One Consultores</strong></a> <i data-desktop class="fas fa-heart m-l-5 m-r-5" style="color:#ff5722;"></i> <br data-mobile-block> {$lang.website} {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-dark"><strong>Code Monkey</strong></a></p>
                     </div>
                     <div class="col-md-6 order-1 order-md-2 m-b-10 m-b-md-0">
                         <p class="text-left text-md-right text-dark"><?php echo Configuration::$vars['legal']['rfc']; ?> <span data-desktop>|</span> <br data-mobile-block> <?php echo Configuration::$vars['legal']['sanitary_opinion']; ?></p>
