@@ -26,8 +26,8 @@
 		  gtag('config', 'G-7GMVDCB2PC');
 		</script>
 	</head>
-	<body>
-		<header id="desktop_menu" class="pos-fixed p-t-20 p-t-md-40 p-b-20 p-b-md-40 p-l-20 p-l-md-0 p-r-20 p-r-md-0" style="width:100%;transition:400ms;z-index:98;">
+	<body class="pos-relative">
+		<header id="desktop_menu" class="pos-fixed p-t-20 p-t-md-40 p-b-20 p-b-md-40 p-l-20 p-l-md-0 p-r-20 p-r-md-0" style="width:100%;transition:400ms;z-index:97;">
 			<div class="container">
 				<div class="row d-flex align-items-center">
 					<div class="col-4 col-md-2">
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 		</header>
-		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center p-40" style="width:300px;height:100vh;right:-300px;background-color:#fff;transition:400ms;z-index:99;">
+		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center p-40" style="width:300px;height:100vh;right:-300px;background-color:#fff;transition:400ms;z-index:98;">
 			<a data-action="close_mobile_menu" class="pos-absolute p-r-10 text-dark" style="top:20px;right:20px;font-size:24px;"><i class="fas fa-times"></i></a>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
