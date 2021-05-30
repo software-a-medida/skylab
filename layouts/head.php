@@ -15,6 +15,16 @@
 		<link rel="stylesheet" href="https://cdn.codemonkey.com.mx/css/valkyrie.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="{$path.css}styles.css?v=1.1" type="text/css" media="all" />
 		{$dependencies.css}
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7GMVDCB2PC"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-7GMVDCB2PC');
+		</script>
 	</head>
 	<body>
 		<header id="desktop_menu" class="pos-fixed p-t-20 p-t-md-40 p-b-20 p-b-md-40 p-l-20 p-l-md-0 p-r-20 p-r-md-0" style="width:100%;transition:400ms;z-index:98;">
