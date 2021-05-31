@@ -1,10 +1,12 @@
 <?php defined('_EXEC') or die; ?>
 
 <main>
-    <section class="d-flex align-items-end justify-content-center p-40" style="height:200px;background-color:#2196F3;">
-        <h1 class="text-center text-light">{$lang.privacy_notice}</h1>
+    <section class="d-flex align-items-end p-tb-40" style="height:200px;background-color:#2196F3;">
+        <div class="container">
+            <h1 class="text-center text-light">{$lang.privacy_notice}</h1>
+        </div>
     </section>
-    <section class="p-t-40 p-r-40 p-l-40">
+    <section class="p-tb-40">
         <div class="container">
             <p class="m-b-20 m-b-md-40 text-justify">{$lang.pn_tt_1}</p>
             <h4 class="m-b-20 m-b-md-40"><strong>{$lang.pn_tt_2}</strong></h4>

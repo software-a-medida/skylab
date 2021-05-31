@@ -320,7 +320,7 @@ class Index_controller extends Controller
 
 	public function vcard()
 	{
-		define('_title', Configuration::$web_page . ' | {$lang.vcard}');
+		define('_title', Configuration::$web_page . ' | VCard');
 
 		$template = $this->view->render($this, 'vcard');
 
