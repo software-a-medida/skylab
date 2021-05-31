@@ -85,12 +85,17 @@ $(document).ready(function()
 
 function map()
 {
+    var title = $('#map').data('title');
+    var lat = $('#map').data('lat');
+    var lng = $('#map').data('lng');
+    var zoom = $('#map').data('zoom');
+
     var locations = [
         {
-            title: 'Toma de pruebas SkyLab',
-            lat: 21.160298,
-            lng: -86.837935,
-            zoom: 20
+            title: title,
+            lat: lat,
+            lng: lng,
+            zoom: zoom
         }
     ];
 

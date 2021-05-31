@@ -307,7 +307,7 @@ class Configuration
 			]
 		],
 		'address' => 'Calle Xpuhil, Ext 1, Lote 5, Manzana 1, CP 77509, Cancún, Quintana roo, México.',
-		'location' => [
+		'map' => [
 			'lat' => '21.160298',
 			'lng' => '-86.837935'
 		],

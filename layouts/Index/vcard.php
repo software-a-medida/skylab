@@ -48,7 +48,7 @@ $this->dependencies->add(['js', '{$path.js}Index/vcard.js?v=1.0']);
             </div>
             <div class="col-4 m-b-10">
                 <div class="p-10 text-center" style="border-radius:5px;background-color:#f5f5f5;">
-                    <a href="https://www.google.com.mx/maps/dir//<?php echo Configuration::$vars['location']['lat']; ?>,<?php echo Configuration::$vars['location']['lng']; ?>/@<?php echo Configuration::$vars['location']['lat']; ?>,<?php echo Configuration::$vars['location']['lng']; ?>,20z/" target="_blank" style="font-size:40px;"><i class="fas fa-map-marker-alt"></i></a>
+                    <a href="https://www.google.com.mx/maps/dir//<?php echo Configuration::$vars['map']['lat']; ?>,<?php echo Configuration::$vars['map']['lng']; ?>/@<?php echo Configuration::$vars['map']['lat']; ?>,<?php echo Configuration::$vars['map']['lng']; ?>,20z/" target="_blank" style="font-size:40px;"><i class="fas fa-map-marker-alt"></i></a>
                     <p>{$lang.location}</p>
                 </div>
             </div>

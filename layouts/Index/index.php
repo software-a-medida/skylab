@@ -3,7 +3,7 @@
 defined('_EXEC') or die;
 
 $this->dependencies->add(['other', '<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLCea8Q6BtcTHwY3YFCiB0EoHE5KnsMUE&callback=map"></script>']);
-$this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
+$this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.2']);
 
 ?>
 
@@ -402,14 +402,14 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
             </div>
         </div>
     </section>
-    <section data-desktop id="map" style="height:60vh;"></section>
+    <section id="map" data-desktop data-title="<?php echo Configuration::$web_page; ?>" data-lat="<?php echo Configuration::$vars['map']['lat']; ?>" data-lng="<?php echo Configuration::$vars['map']['lng']; ?>" data-zoom="18" style="height:60vh;"></section>
     <section data-mobile-block class="p-b-40">
         <div class="container">
             <figure class="m-b-40">
                 <img src="{$path.images}map_background_mobile.png" alt="Map" class="img-fluid" style="max-height:200px;">
             </figure>
             <div class="text-center">
-                <a href="https://www.google.com.mx/maps/dir//<?php echo Configuration::$vars['location']['lat']; ?>,<?php echo Configuration::$vars['location']['lng']; ?>/@<?php echo Configuration::$vars['location']['lat']; ?>,<?php echo Configuration::$vars['location']['lng']; ?>,20z/" target="_blank" class="btn btn-b-none text-light" style="background-color:#2196F3;">{$lang.view_map}</a>
+                <a href="https://www.google.com.mx/maps/dir//<?php echo Configuration::$vars['map']['lat']; ?>,<?php echo Configuration::$vars['map']['lng']; ?>/@<?php echo Configuration::$vars['map']['lat']; ?>,<?php echo Configuration::$vars['map']['lng']; ?>,20z/" target="_blank" class="btn btn-b-none text-light" style="background-color:#2196F3;">{$lang.view_map}</a>
             </div>
         </div>
     </section>

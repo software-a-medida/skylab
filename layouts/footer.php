@@ -76,7 +76,7 @@
             </div>
         </footer>
         <div id="wa_flat" class="pos-fixed" style="right:20px;bottom:20px;">
-			<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="btn btn-b-none text-light" style="font-size:18px;border-radius:60px;background-color:#00bb2d;z-index:99;"><i class="fab fa-whatsapp m-r-10"></i>Whatsapp</a>
+			<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="btn btn-b-none text-light" style="border-radius:60px;background-color:#00bb2d;font-size:18px;z-index:99;"><i class="fab fa-whatsapp m-r-10"></i>Whatsapp</a>
 		</div>
         <script src="{$path.js}jquery-3.4.1.min.js"></script>
         <script src="https://cdn.codemonkey.com.mx/js/valkyrie.js"></script>
