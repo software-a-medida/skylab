@@ -70,7 +70,7 @@
                         <p>Copyright © 2021 <a href="https://one-consultores.com" target="_blank"><strong>One Consultores</strong></a> <i data-desktop class="fas fa-heart m-l-5 m-r-5" style="color:#ff5722;"></i> <br data-mobile-block> {$lang.website} {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank"><strong>Code Monkey</strong></a></p>
                     </div>
                     <div class="col-md-6 order-1 order-md-2 m-b-10 m-b-md-0">
-                        <p class="text-left text-md-right"><?php echo Configuration::$vars['legal']['rfc']; ?> <span data-desktop>|</span> <br data-mobile-block> <?php echo Configuration::$vars['legal']['sanitary_opinion']; ?></p>
+                        <p class="text-left text-md-right"><?php echo Configuration::$vars['legal']['sanitary_opinion']; ?> <span data-desktop>|</span> <br data-mobile-block> <?php echo Configuration::$vars['legal']['rfc']; ?></p>
                     </div>
                 </div>
             </div>

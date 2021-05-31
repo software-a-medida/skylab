@@ -6,7 +6,7 @@ $this->dependencies->add(['js', '{$path.js}Index/vcard.js?v=1.0']);
 
 ?>
 
-<main>
+<main id="vcard" class="d-none">
     <section class="d-flex align-items-end justify-content-center p-tb-20" style="height:50vh;background-color:#ff5722;">
         <div class="p-5 m-b-20" style="width:160px;height:160px;border:2px solid #fff;border-radius:50%;">
             <figure style="width:100%;height:100%;border-radius:50%;">
