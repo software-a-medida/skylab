@@ -112,12 +112,14 @@ function map()
             lat: locations[0].lat,
             lng: locations[0].lng
         },
-        map: map
+        map: map,
+        icon: '/assets/images/marker.png',
+        title: locations[0].title
     });
 
-    var title = new google.maps.InfoWindow({
-        content: locations[0].title
-    });
-
-    title.open(map, marker);
+    // var title = new google.maps.InfoWindow({
+    //     content: locations[0].title
+    // });
+    //
+    // title.open(map, marker);
 }
