@@ -260,19 +260,19 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.2']);
             </div>
         </div>
     </section>
-    <section id="agenda-una-cita" class="p-b-40">
+    <!-- <section id="agenda-una-cita" class="p-b-40">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 m-b-40 m-b-md-0">
                     <h2 class="m-b-40 text-center text-md-left" style="font-size:40px;">{$lang.schedule_your_appointment}</h2>
                     <div class="p-20" style="border-radius:4px;border:2px dashed #e0e0e0;">
-                        <!-- <p class="m-b-20 text-justify text-md-left">{$lang.we_will_also_look_for_you}</p>
+                        <p class="m-b-20 text-justify text-md-left">{$lang.we_will_also_look_for_you}</p>
                         <p class="m-b-5"><strong>{$lang.cancun_zh}</strong>: <br data-mobile-block> $ 28 USD.</p>
                         <p class="m-b-5"><strong>{$lang.cancun_ib}</strong>: <br data-mobile-block> $ 28 USD.</p>
                         <p class="m-b-5"><strong>{$lang.isla_mujeres}</strong>: <br data-mobile-block> $ 28 USD.</p>
                         <p class="m-b-5"><strong>{$lang.playa_del_carmen}</strong>: <br data-mobile-block> $ 28 USD.</p>
                         <p class="m-b-5"><strong>{$lang.tulum}</strong>: <br data-mobile-block> $ 28 USD.</p>
-                        <p class="m-b-20"><strong>{$lang.riviera_maya_hotels}</strong>: <br data-mobile-block> $ 28 USD.</p> -->
+                        <p class="m-b-20"><strong>{$lang.riviera_maya_hotels}</strong>: <br data-mobile-block> $ 28 USD.</p>
                         <figure class="d-inline-block m-b-5 m-r-10">
                             <img src="{$path.images}visa.png" alt="Visa" class="img-fluid" style="max-height:20px;">
                         </figure>
@@ -363,7 +363,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.2']);
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="other_services" class="p-b-40">
         <div class="container">
             <div class="row">
