@@ -429,9 +429,9 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.2']);
                         </div>
                         <div class="col-md-6">
                             <h6 class="m-b-10 text-uppercase"><strong>{$lang.attention_schedule}</strong></h6>
-                            <p class="m-b-5">{$lang.attention_schedule_text_1}</p>
-                            <p class="m-b-5">{$lang.attention_schedule_text_2}</p>
-                            <p>{$lang.attention_schedule_text_3}</p>
+                            <p>{$lang.attention_schedule_text_1}</p>
+                            <!-- <p class="m-b-5">{$lang.attention_schedule_text_2}</p>
+                            <p>{$lang.attention_schedule_text_3}</p> -->
                         </div>
                     </div>
                 </div>
